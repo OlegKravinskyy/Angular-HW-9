@@ -1,0 +1,29 @@
+a:hover {
+  box-shadow: 0 6px 6px rgba(10, 16, 20, 0.15), 0 0 52px rgba(10, 16, 20, 0.12);
+}
+
+a {
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+  color: black;
+  font-size: 20px;
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+
+a.active {
+  background: blueviolet;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}

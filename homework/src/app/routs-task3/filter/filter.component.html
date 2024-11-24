@@ -1,0 +1,12 @@
+<div>
+  <h3>Filter by Color</h3>
+  <div *ngFor="let color of colors">
+    <input
+      type="radio"
+      name="color"
+      [value]="color"
+      (change)="onFilterChange(color)"
+    />
+    {{ color }}
+  </div>
+</div>

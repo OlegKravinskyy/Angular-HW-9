@@ -1,0 +1,9 @@
+<div>
+  <h2>Product List</h2>
+  <app-filter (filter)="onFilter($event)"></app-filter>
+  <ul>
+    <li *ngFor="let product of filteredProducts">
+      {{ product.name }} ({{ product.color }})
+    </li>
+  </ul>
+</div>
